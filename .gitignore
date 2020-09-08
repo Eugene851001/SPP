@@ -2,6 +2,8 @@
 *.user
 *.sln.docstates
 
+*.dll
+
 *_i.c
 *_p.c
 *_i.h
