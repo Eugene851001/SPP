@@ -1,0 +1,14 @@
+E:\5 сем\СПП\лаба 1.2\Factorization\obj\Debug\Factorization.csprojAssemblyReference.cache
+E:\5 сем\СПП\лаба 1.2\Factorization\bin\Debug\Factorization.exe.config
+E:\5 сем\СПП\лаба 1.2\Factorization\bin\Debug\Factorization.exe
+E:\5 сем\СПП\лаба 1.2\Factorization\bin\Debug\Factorization.pdb
+E:\5 сем\СПП\лаба 1.2\Factorization\bin\Debug\Tracer.dll
+E:\5 сем\СПП\лаба 1.2\Factorization\bin\Debug\Tracer.pdb
+E:\5 сем\СПП\лаба 1.2\Factorization\obj\Debug\Factorization.csproj.CopyComplete
+E:\5 сем\СПП\лаба 1.2\Factorization\obj\Debug\Factorization.exe
+E:\5 сем\СПП\лаба 1.2\Factorization\obj\Debug\Factorization.pdb
+E:\5 сем\СПП\лаба 1.2\Factorization\bin\Debug\Serializer.dll
+E:\5 сем\СПП\лаба 1.2\Factorization\bin\Debug\Serializer.pdb
+E:\5 сем\СПП\лаба 1.2\Factorization\bin\Debug\Serializer.dll.config
+E:\5 сем\СПП\лаба 1.2\Factorization\bin\Debug\Newtonsoft.Json.dll
+E:\5 сем\СПП\лаба 1.2\Factorization\bin\Debug\Newtonsoft.Json.xml
