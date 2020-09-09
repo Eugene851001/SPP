@@ -11,18 +11,18 @@ namespace Tracert
         public List<MethodRuntimeInfo> currentMethodList;
         public Stack<List<MethodRuntimeInfo>> methodsLists;
         public Stack<long> startTimes;
-        public long threadStartTime;
         public bool isStarted;
+        public int threadID;
 
         public ThreadHelpInfo(Stack<List<MethodRuntimeInfo>> methodsLists, 
             List<MethodRuntimeInfo> currentMethodList, Stack<long> startTimes, 
-            long threadStartTime, bool isStarted)
+            bool isStarted, int threadID)
         {
             this.currentMethodList = currentMethodList;
             this.methodsLists = methodsLists;
             this.startTimes = startTimes;
             this.isStarted = isStarted;
-            this.threadStartTime = threadStartTime;
+            this.threadID = threadID;
         }
     }
 }

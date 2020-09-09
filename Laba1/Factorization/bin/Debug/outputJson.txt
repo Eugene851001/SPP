@@ -1,0 +1,5025 @@
+{
+  "Threads": [
+    {
+      "Id": 1,
+      "EllapsedTime": 519,
+      "Methods": [
+        {
+          "EllapsedTime": 10,
+          "MethodName": "factorize",
+          "ClassName": "Factorizer",
+          "Methods": [
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 5,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 0,
+              "MethodName": "isSimple",
+              "ClassName": "Factorizer",
+              "Methods": []
+            }
+          ]
+        },
+        {
+          "EllapsedTime": 509,
+          "MethodName": "BusyMethod",
+          "ClassName": "Program",
+          "Methods": [
+            {
+              "EllapsedTime": 0,
+              "MethodName": "Pow",
+              "ClassName": "Program",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 509,
+              "MethodName": "sleep200",
+              "ClassName": "Program",
+              "Methods": [
+                {
+                  "EllapsedTime": 304,
+                  "MethodName": "sleep300",
+                  "ClassName": "Program",
+                  "Methods": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "EllapsedTime": 506,
+      "Methods": [
+        {
+          "EllapsedTime": 506,
+          "MethodName": "BusyMethod",
+          "ClassName": "Program",
+          "Methods": [
+            {
+              "EllapsedTime": 0,
+              "MethodName": "Pow",
+              "ClassName": "Program",
+              "Methods": []
+            },
+            {
+              "EllapsedTime": 506,
+              "MethodName": "sleep200",
+              "ClassName": "Program",
+              "Methods": [
+                {
+                  "EllapsedTime": 301,
+                  "MethodName": "sleep300",
+                  "ClassName": "Program",
+                  "Methods": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

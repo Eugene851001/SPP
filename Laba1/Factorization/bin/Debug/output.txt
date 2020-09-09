@@ -2,29 +2,23 @@
   "Threads": [
     {
       "Id": 1,
-      "EllapsedTime": 4,
+      "EllapsedTime": 515,
       "Methods": [
         {
-          "EllapsedTime": 3,
+          "EllapsedTime": 5,
           "MethodName": "factorize",
           "ClassName": "Factorizer",
           "Methods": [
             {
-              "EllapsedTime": 3,
+              "EllapsedTime": 5,
               "MethodName": "isSimple",
               "ClassName": "Factorizer",
               "Methods": []
             }
           ]
-        }
-      ]
-    },
-    {
-      "Id": 3,
-      "EllapsedTime": 503,
-      "Methods": [
+        },
         {
-          "EllapsedTime": 503,
+          "EllapsedTime": 510,
           "MethodName": "BusyMethod",
           "ClassName": "Program",
           "Methods": [
@@ -35,16 +29,49 @@
               "Methods": []
             },
             {
-              "EllapsedTime": 201,
+              "EllapsedTime": 510,
               "MethodName": "sleep200",
+              "ClassName": "Program",
+              "Methods": [
+                {
+                  "EllapsedTime": 305,
+                  "MethodName": "sleep300",
+                  "ClassName": "Program",
+                  "Methods": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "EllapsedTime": 510,
+      "Methods": [
+        {
+          "EllapsedTime": 510,
+          "MethodName": "BusyMethod",
+          "ClassName": "Program",
+          "Methods": [
+            {
+              "EllapsedTime": 0,
+              "MethodName": "Pow",
               "ClassName": "Program",
               "Methods": []
             },
             {
-              "EllapsedTime": 301,
-              "MethodName": "sleep300",
+              "EllapsedTime": 510,
+              "MethodName": "sleep200",
               "ClassName": "Program",
-              "Methods": []
+              "Methods": [
+                {
+                  "EllapsedTime": 305,
+                  "MethodName": "sleep300",
+                  "ClassName": "Program",
+                  "Methods": []
+                }
+              ]
             }
           ]
         }

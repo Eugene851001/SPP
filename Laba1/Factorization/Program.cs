@@ -9,16 +9,16 @@ namespace Factorization
 {
     class Program
     {
-        static string outputFileName = "output.txt";
-        static bool isResultReady;
-        static Tracer tracer;
+        static string outputFileNameJson = "outputJson.txt";
+        static string outputFileNameXml = "outputXml.txt";
+        static bool isResultReady = false;
+        static ITracer tracer;
         static void BusyMethod()
         {
 
             tracer.StartTrace();
             Pow(2, 20);
             sleep200();
-            sleep300();
             tracer.StopTrace();
             isResultReady = true;
         }
@@ -27,6 +27,7 @@ namespace Factorization
         {
             tracer.StartTrace();
             Thread.Sleep(200);
+            sleep300();
             tracer.StopTrace();
         }
 
@@ -49,6 +50,19 @@ namespace Factorization
             return x;
         }
 
+        static void writeFile(string fileName, string info)
+        {
+            FileStream f = new FileStream(fileName, FileMode.Create);
+            try
+            {
+                f.Write(Encoding.UTF8.GetBytes(info), 0, info.Length);
+            }
+            finally
+            {
+                f.Close();
+            }
+        }
+
         static void Main(string[] args)
         {
             Divider[] dividers = new Divider[100];
@@ -64,21 +78,19 @@ namespace Factorization
             isResultReady = false;
             Thread thread = new Thread(BusyMethod);
             thread.Start();
+            Thread.Sleep(1000);
+            BusyMethod();
             Console.WriteLine(dividers[divAmount - 1].Base + "^" + dividers[divAmount - 1].Degree);
+
             while (!isResultReady) ;
             IStringSerializer serializer = new SerializerJson();
             string runtimeInfo = serializer.SerializeString(tracer.GetTraceResult(), typeof(TraceResult));
             Console.WriteLine(runtimeInfo);
-            FileStream f = new FileStream(outputFileName, FileMode.Create);
-            try
-            {
-                f.Write(Encoding.UTF8.GetBytes(runtimeInfo), 0, runtimeInfo.Length);
-            }
-            finally
-            {
-                f.Close();
-            }
-            //    Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
+            writeFile(outputFileNameJson, runtimeInfo);
+            serializer = new SerializerXml();
+            runtimeInfo = serializer.SerializeString(tracer.GetTraceResult(), typeof(TraceResult));
+            Console.WriteLine(runtimeInfo);
+            writeFile(outputFileNameXml, runtimeInfo);
             Console.ReadLine();
         }
 

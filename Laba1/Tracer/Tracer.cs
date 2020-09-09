@@ -7,10 +7,10 @@ namespace Tracert
 {
     public class Tracer: ITracer
     {
+        object lockTrace = new Object();
 
         private bool isStarted;
         private long startTime, endTime;
-        private long threadStartTime;
         private TraceResult result;
         private ThreadRuntimeInfo threadInfo = new ThreadRuntimeInfo() 
             { Id = 1, EllapsedTime = 0, Methods = new List<MethodRuntimeInfo>()};
@@ -31,106 +31,133 @@ namespace Tracert
             startTimes = new Stack<long>();
             currentMethodList = threadInfo.Methods;
             methodsLists.Push(currentMethodList);
-            threadStartTime = long.MaxValue;
             threadsHelpInfo = new Dictionary<int, ThreadHelpInfo>();
             threadsHelpInfo.Add(currentThreadId, new ThreadHelpInfo(methodsLists, currentMethodList, 
-                startTimes, threadStartTime, isStarted));
+                startTimes, isStarted, currentThreadId));
         }
 
-        public void StartTrace()
+        public void StartTrace() 
         {
-            startTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
-            if (startTime < threadStartTime)
-                threadStartTime = startTime;
-            if (Thread.CurrentThread.ManagedThreadId != currentThreadId)
+            lock (lockTrace)
             {
-                if(threadsHelpInfo.ContainsKey(Thread.CurrentThread.ManagedThreadId))
+                long oldStartTime = startTime;
+                startTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
+                int realThreadId;
+                if ((realThreadId = Thread.CurrentThread.ManagedThreadId) != currentThreadId)
                 {
-                    threadsHelpInfo[currentThreadId] = new ThreadHelpInfo(methodsLists, 
-                        currentMethodList, startTimes, threadStartTime, isStarted);
+                    if (threadsHelpInfo.ContainsKey(realThreadId))
+                    {
+                        threadsHelpInfo[currentThreadId] = new ThreadHelpInfo(methodsLists,
+                            currentMethodList, startTimes, isStarted, currentThreadId);
+                        currentThreadId = realThreadId;
+                        ThreadHelpInfo currentThreadInfo = threadsHelpInfo[currentThreadId];
+                        methodsLists = currentThreadInfo.methodsLists;
+                        currentMethodList = currentThreadInfo.currentMethodList;
+                        startTimes = currentThreadInfo.startTimes;
+                        isStarted = currentThreadInfo.isStarted;
+                        int i = 0;
+                        while (result.Threads[i].Id != currentThreadId)
+                            i++;
+                        threadInfo = result.Threads[i];
+                    }
+                    else
+                    {
+                        threadsHelpInfo[currentThreadId] = new ThreadHelpInfo(methodsLists,
+                            currentMethodList, startTimes, isStarted, currentThreadId);
+                        currentThreadId = realThreadId;
+
+                        //Initializing new thread
+                        threadInfo = new ThreadRuntimeInfo()
+                        {
+                            Id = currentThreadId,
+                            EllapsedTime = 0,
+                            Methods = new List<MethodRuntimeInfo>()
+                        };
+                        currentMethodList = threadInfo.Methods;
+                        methodsLists = new Stack<List<MethodRuntimeInfo>>();
+                        methodsLists.Push(currentMethodList);
+                        startTimes = new Stack<long>();
+                        isStarted = false;
+                        result.Threads.Add(threadInfo);
+                        //-------------------------------
+
+                        threadsHelpInfo.Add(currentThreadId, new ThreadHelpInfo(methodsLists,
+                            currentMethodList, startTimes, isStarted, currentThreadId));
+                    }
+                }
+                if (isStarted)
+                {
+                    //--------------------------
+                    //---------------------------
+                   // threadsHelpInfo[oldStartTime.ThreadID].startTimes.Push(oldStartTime);
+                    startTimes.Push(oldStartTime);
+                    methodsLists.Push(currentMethodList);
+                    currentMethodList.Add(new MethodRuntimeInfo());
+                    currentMethodList = currentMethodList[currentMethodList.Count - 1].Methods;
+                }
+                isStarted = true;
+            }
+        }
+
+        public void StopTrace()
+        {
+            lock (lockTrace)
+            {
+                StackFrame frame = new StackFrame(1);
+                var method = frame.GetMethod();
+                string methodName = method.Name;
+                string className = method.DeclaringType.Name;
+                endTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
+                if (Thread.CurrentThread.ManagedThreadId != currentThreadId)
+                {
+                    threadsHelpInfo[currentThreadId] = new ThreadHelpInfo(methodsLists,
+                        currentMethodList, startTimes, isStarted, currentThreadId);
                     currentThreadId = Thread.CurrentThread.ManagedThreadId;
                     ThreadHelpInfo currentThreadInfo = threadsHelpInfo[currentThreadId];
                     methodsLists = currentThreadInfo.methodsLists;
                     currentMethodList = currentThreadInfo.currentMethodList;
                     startTimes = currentThreadInfo.startTimes;
                     isStarted = currentThreadInfo.isStarted;
-                    threadStartTime = currentThreadInfo.threadStartTime;
+                    int i = 0;
+                    while (result.Threads[i].Id != currentThreadId)
+                        i++;
+                    threadInfo = result.Threads[i];
+                }
+                if (!isStarted)
+                {
+                    startTime = startTimes.Pop();
+                    currentMethodList = methodsLists.Pop();
+                    currentMethodList[currentMethodList.Count - 1].EllapsedTime = endTime - startTime;
+                    currentMethodList[currentMethodList.Count - 1].ClassName = className;
+                    currentMethodList[currentMethodList.Count - 1].MethodName = methodName;
                 }
                 else
                 {
-                    threadsHelpInfo[currentThreadId] = new ThreadHelpInfo(methodsLists, 
-                        currentMethodList, startTimes, threadStartTime, isStarted);
-                    currentThreadId = Thread.CurrentThread.ManagedThreadId;
-                    
-                    //Initializing new thread
-                    threadInfo = new ThreadRuntimeInfo() { Id = currentThreadId, 
-                        EllapsedTime = 0, Methods = new List<MethodRuntimeInfo>()};
-                    currentMethodList = threadInfo.Methods;
-                    methodsLists = new Stack<List<MethodRuntimeInfo>>();
-                    methodsLists.Push(currentMethodList);
+                    currentMethodList.Add(new MethodRuntimeInfo()
+                    {
+                        EllapsedTime =
+                        endTime - startTime,
+                        ClassName = className,
+                        MethodName = methodName
+                    });
                     isStarted = false;
-                    result.Threads.Add(threadInfo);
-                    threadStartTime = startTime;
-                    //-------------------------------
 
-                    //constructor parameters does not matter
-                    threadsHelpInfo.Add(currentThreadId, new ThreadHelpInfo(methodsLists, 
-                        currentMethodList, startTimes, threadStartTime, isStarted));
                 }
             }
-            if (isStarted)
-            {
-                startTimes.Push(startTime);
-                methodsLists.Push(currentMethodList);
-                currentMethodList.Add(new MethodRuntimeInfo());
-                currentMethodList = currentMethodList[currentMethodList.Count - 1].Methods;
-            }
-            isStarted = true;
-        }
-
-        public void StopTrace()
-        {
-            StackFrame frame = new StackFrame(1);
-            var method = frame.GetMethod();
-            string methodName = method.Name;
-            string className = method.DeclaringType.Name;
-            endTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
-            if(Thread.CurrentThread.ManagedThreadId != currentThreadId)
-            {
-                threadsHelpInfo[currentThreadId] = new ThreadHelpInfo(methodsLists, 
-                    currentMethodList, startTimes, threadStartTime, isStarted);
-                currentThreadId = Thread.CurrentThread.ManagedThreadId;
-                ThreadHelpInfo currentThreadInfo = threadsHelpInfo[currentThreadId];
-                methodsLists = currentThreadInfo.methodsLists;
-                currentMethodList = currentThreadInfo.currentMethodList;
-                startTimes = currentThreadInfo.startTimes;
-                isStarted = currentThreadInfo.isStarted;
-                threadStartTime = currentThreadInfo.threadStartTime;
-            }
-            if (!isStarted)
-            {
-                startTime = startTimes.Pop();
-                currentMethodList = methodsLists.Pop();
-                currentMethodList[currentMethodList.Count - 1].EllapsedTime = endTime - startTime;
-                currentMethodList[currentMethodList.Count - 1].ClassName = className;
-                currentMethodList[currentMethodList.Count - 1].MethodName = methodName;
-            }
-            else
-            {
-                currentMethodList.Add(new MethodRuntimeInfo()
-                {
-                    EllapsedTime =
-                    endTime - startTime,
-                    ClassName = className,
-                    MethodName = methodName
-                });
-                isStarted = false;
-            }
-            threadInfo.EllapsedTime = endTime - threadStartTime;
         } 
 
         public TraceResult GetTraceResult()
         {
+            long time;
+            for(int i  = 0; i < result.Threads.Count; i++)
+            {
+                time = 0;
+                foreach(var method in result.Threads[i].Methods)
+                {
+                    time += method.EllapsedTime;
+                }
+                result.Threads[i].EllapsedTime = time;
+            }
             return result;
         }
 
