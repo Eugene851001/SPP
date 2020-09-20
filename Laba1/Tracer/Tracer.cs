@@ -12,18 +12,19 @@ namespace Tracert
         private bool isStarted;
         private long startTime, endTime;
         private TraceResult result;
-        private ThreadRuntimeInfo threadInfo = new ThreadRuntimeInfo() 
-            { Id = 1, EllapsedTime = 0, Methods = new List<MethodRuntimeInfo>()};
+        private ThreadRuntimeInfo threadInfo;
         private List<MethodRuntimeInfo> currentMethodList;
         private Stack<List<MethodRuntimeInfo>> methodsLists;
         private Stack<long> startTimes;
         private int currentThreadId;
 
-        Dictionary<int, ThreadHelpInfo> threadsHelpInfo;
+        private Dictionary<int, ThreadHelpInfo> threadsHelpInfo;
 
         public Tracer()
         {
             result = new TraceResult();
+            threadInfo = new ThreadRuntimeInfo()
+            { Id = 1, EllapsedTime = 0, Methods = new List<MethodRuntimeInfo>() };
             currentThreadId = Thread.CurrentThread.ManagedThreadId;
             threadInfo.Id = currentThreadId;
             result.Threads = new List<ThreadRuntimeInfo>{ threadInfo};
@@ -32,7 +33,7 @@ namespace Tracert
             currentMethodList = threadInfo.Methods;
             methodsLists.Push(currentMethodList);
             threadsHelpInfo = new Dictionary<int, ThreadHelpInfo>();
-            threadsHelpInfo.Add(currentThreadId, new ThreadHelpInfo(methodsLists, currentMethodList, 
+            threadsHelpInfo.Add(currentThreadId, ThreadHelpInfoFactory.getInstance(methodsLists, currentMethodList, 
                 startTimes, isStarted, currentThreadId));
         }
 
@@ -40,29 +41,20 @@ namespace Tracert
         {
             lock (lockTrace)
             {
-                long oldStartTime = startTime;
                 startTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
                 int realThreadId;
                 if ((realThreadId = Thread.CurrentThread.ManagedThreadId) != currentThreadId)
                 {
                     if (threadsHelpInfo.ContainsKey(realThreadId))
                     {
-                        threadsHelpInfo[currentThreadId] = new ThreadHelpInfo(methodsLists,
+                        threadsHelpInfo[currentThreadId] = ThreadHelpInfoFactory.getInstance(methodsLists,
                             currentMethodList, startTimes, isStarted, currentThreadId);
                         currentThreadId = realThreadId;
-                        ThreadHelpInfo currentThreadInfo = threadsHelpInfo[currentThreadId];
-                        methodsLists = currentThreadInfo.methodsLists;
-                        currentMethodList = currentThreadInfo.currentMethodList;
-                        startTimes = currentThreadInfo.startTimes;
-                        isStarted = currentThreadInfo.isStarted;
-                        int i = 0;
-                        while (result.Threads[i].Id != currentThreadId)
-                            i++;
-                        threadInfo = result.Threads[i];
+                        loadThreadHelpInfo();
                     }
                     else
                     {
-                        threadsHelpInfo[currentThreadId] = new ThreadHelpInfo(methodsLists,
+                        threadsHelpInfo[currentThreadId] = ThreadHelpInfoFactory.getInstance(methodsLists,
                             currentMethodList, startTimes, isStarted, currentThreadId);
                         currentThreadId = realThreadId;
 
@@ -81,16 +73,14 @@ namespace Tracert
                         result.Threads.Add(threadInfo);
                         //-------------------------------
 
-                        threadsHelpInfo.Add(currentThreadId, new ThreadHelpInfo(methodsLists,
+                        threadsHelpInfo.Add(currentThreadId, ThreadHelpInfoFactory.getInstance(methodsLists,
                             currentMethodList, startTimes, isStarted, currentThreadId));
                     }
                 }
+                startTimes.Push(startTime);
                 if (isStarted)
                 {
                     //--------------------------
-                    //---------------------------
-                   // threadsHelpInfo[oldStartTime.ThreadID].startTimes.Push(oldStartTime);
-                    startTimes.Push(oldStartTime);
                     methodsLists.Push(currentMethodList);
                     currentMethodList.Add(new MethodRuntimeInfo());
                     currentMethodList = currentMethodList[currentMethodList.Count - 1].Methods;
@@ -110,18 +100,10 @@ namespace Tracert
                 endTime = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
                 if (Thread.CurrentThread.ManagedThreadId != currentThreadId)
                 {
-                    threadsHelpInfo[currentThreadId] = new ThreadHelpInfo(methodsLists,
+                    threadsHelpInfo[currentThreadId] = ThreadHelpInfoFactory.getInstance(methodsLists,
                         currentMethodList, startTimes, isStarted, currentThreadId);
                     currentThreadId = Thread.CurrentThread.ManagedThreadId;
-                    ThreadHelpInfo currentThreadInfo = threadsHelpInfo[currentThreadId];
-                    methodsLists = currentThreadInfo.methodsLists;
-                    currentMethodList = currentThreadInfo.currentMethodList;
-                    startTimes = currentThreadInfo.startTimes;
-                    isStarted = currentThreadInfo.isStarted;
-                    int i = 0;
-                    while (result.Threads[i].Id != currentThreadId)
-                        i++;
-                    threadInfo = result.Threads[i];
+                    loadThreadHelpInfo();
                 }
                 if (!isStarted)
                 {
@@ -133,6 +115,7 @@ namespace Tracert
                 }
                 else
                 {
+                    startTime = startTimes.Pop();
                     currentMethodList.Add(new MethodRuntimeInfo()
                     {
                         EllapsedTime =
@@ -145,6 +128,19 @@ namespace Tracert
                 }
             }
         } 
+
+        void loadThreadHelpInfo()
+        {
+            ThreadHelpInfo currentThreadInfo = threadsHelpInfo[currentThreadId];
+            methodsLists = currentThreadInfo.methodsLists;
+            currentMethodList = currentThreadInfo.currentMethodList;
+            startTimes = currentThreadInfo.startTimes;
+            isStarted = currentThreadInfo.isStarted;
+            int i = 0;
+            while (result.Threads[i].Id != currentThreadId)
+                i++;
+            threadInfo = result.Threads[i];
+        }
 
         public TraceResult GetTraceResult()
         {

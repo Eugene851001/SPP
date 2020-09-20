@@ -13,12 +13,13 @@ namespace Factorization
         static string outputFileNameXml = "outputXml.txt";
         static bool isResultReady = false;
         static ITracer tracer;
+
         static void BusyMethod()
         {
-
             tracer.StartTrace();
             Pow(2, 20);
             sleep200();
+            sleep100();
             tracer.StopTrace();
             isResultReady = true;
         }
@@ -35,6 +36,13 @@ namespace Factorization
         {
             tracer.StartTrace();
             Thread.Sleep(300);
+            tracer.StopTrace();
+        }
+
+        static void sleep100()
+        {
+            tracer.StartTrace();
+            Thread.Sleep(100);
             tracer.StopTrace();
         }
 
@@ -69,16 +77,15 @@ namespace Factorization
             tracer = new Tracer();
             Factorizer factorizer = new Factorizer(tracer);
             Console.WriteLine("Enter integer: ");
-            int num = int.Parse(Console.ReadLine());
+            int num = int.Parse(Console.ReadLine()); 
+            isResultReady = false;
+            Thread thread = new Thread(BusyMethod);
+            thread.Start();
             int divAmount = factorizer.factorize(num, dividers);
             for (int i = 0; i < divAmount - 1; i++)
             {
                 Console.Write(dividers[i].Base + "^" + dividers[i].Degree + "*");
             }
-            isResultReady = false;
-            Thread thread = new Thread(BusyMethod);
-            thread.Start();
-            Thread.Sleep(1000);
             BusyMethod();
             Console.WriteLine(dividers[divAmount - 1].Base + "^" + dividers[divAmount - 1].Degree);
 
