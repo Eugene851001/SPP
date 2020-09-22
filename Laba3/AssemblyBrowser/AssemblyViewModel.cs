@@ -38,13 +38,16 @@ namespace AssemblyBrowser
                         {
                             assemblyInfoGetter.LoadAssembly(fileName);
                             var asmInfo = assemblyInfoGetter.GetAssemblyInfo();
-                            namespacesInfo.Add(asmInfo);
+                            assembliesInfo.Add(asmInfo);
                             extensionMethods.AddRange(assemblyInfoGetter.GetExtensionMethods());
-                            foreach (var namespaceInfo in namespacesInfo)
+                            foreach (var assemblyInfo in assembliesInfo)
                             {
-                                foreach (var methodInfo in extensionMethods)
+                                foreach (var namespaceInfo in assemblyInfo.Namespaces)
                                 {
-                                    assemblyInfoGetter.AddExtensionMethod(namespaceInfo, methodInfo);
+                                    foreach (var methodInfo in extensionMethods)
+                                    {
+                                        assemblyInfoGetter.AddExtensionMethod(namespaceInfo, methodInfo);
+                                    }
                                 }
                             }
                          //   onPropertyChanged("NamespacesInfo");
@@ -59,16 +62,16 @@ namespace AssemblyBrowser
             }
         }
 
-        private ObservableCollection<NamespaceInfo> namespacesInfo = new ObservableCollection<NamespaceInfo>();
-        public ObservableCollection<NamespaceInfo> NamespacesInfo 
+        private ObservableCollection<AssemblyInfo> assembliesInfo = new ObservableCollection<AssemblyInfo>();
+        public ObservableCollection<AssemblyInfo> AssembliesInfo 
         { 
             get
             {
-                return namespacesInfo;
+                return assembliesInfo;
             }
             set
             {
-                namespacesInfo = value;
+                assembliesInfo = value;
                 onPropertyChanged("NamespacesInfo");
             }
         }
@@ -93,7 +96,7 @@ namespace AssemblyBrowser
             extensionMethods = new List<System.Reflection.MethodInfo>();
             assemblyInfoGetter = new AssemblyGetter();
             assemblyInfoGetter.LoadAssembly("DTO.dll");
-            namespacesInfo.Add(assemblyInfoGetter.GetAssemblyInfo());
+            assembliesInfo.Add(assemblyInfoGetter.GetAssemblyInfo());
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

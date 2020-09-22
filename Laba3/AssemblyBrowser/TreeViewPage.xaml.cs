@@ -25,7 +25,7 @@ namespace AssemblyBrowser
             InitializeComponent();
             var assemblyVM = new AssemblyViewModel();
             DataContext = assemblyVM;
-            assemblyTree.ItemsSource = assemblyVM.NamespacesInfo;
+            assemblyTree.ItemsSource = assemblyVM.AssembliesInfo;
         //    this.assemblyTree.ItemsSource = assemblyVM.NamespacesInfo;
             // DataContext = new AssemblyViewModel();
             /*    AssemblyViewModel assemblyVM = new AssemblyViewModel();

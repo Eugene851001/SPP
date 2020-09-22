@@ -17,25 +17,32 @@ namespace AssemblyInfoGetter
             assembly = Assembly.LoadFrom(fileName);
         }
 
-        bool IsExistsNamespace(DTO.AssemblyInfo assemblyInfo, string namespaceName)
+        DTO.NamespaceInfo FoundNamespace(DTO.AssemblyInfo assemblyInfo, string namespaceName)
         {
             foreach(var namespaceInfo in assemblyInfo.Namespaces)
             {
                 if(namespaceInfo.Name == namespaceName)
                 {
-                    return true;
+                    return namespaceInfo;
                 }
             }
-            return false;
+            return null;
         }
 
-        public DTO.NamespaceInfo GetAssemblyInfo()
+        public DTO.AssemblyInfo GetAssemblyInfo()
         {
-            DTO.NamespaceInfo namespaceInfo = new DTO.NamespaceInfo();
+            DTO.AssemblyInfo assemblyInfo = new DTO.AssemblyInfo();
 
-            namespaceInfo.Name = assembly.FullName;
+            assemblyInfo.Name = assembly.FullName;
+            DTO.NamespaceInfo namespaceInfo;
             foreach(Type type in assembly.GetTypes())
             {
+                namespaceInfo = FoundNamespace(assemblyInfo, type.Namespace);
+                if(namespaceInfo == null)
+                {
+                    namespaceInfo = new DTO.NamespaceInfo() { Name = type.Namespace };
+                    assemblyInfo.Namespaces.Add(namespaceInfo);
+                }
                 var dataTypeInfo = new DTO.DataTypeInfo();
                 dataTypeInfo.Name = type.Name;
                 foreach(var memberInfo in type.GetMembers())
@@ -70,7 +77,7 @@ namespace AssemblyInfoGetter
                 }
                 namespaceInfo.DataTypes.Add(dataTypeInfo);
             }
-            return namespaceInfo;
+            return assemblyInfo;
         }
 
         public List<System.Reflection.MethodInfo> GetExtensionMethods()
@@ -92,11 +99,12 @@ namespace AssemblyInfoGetter
 
         public void AddExtensionMethod(DTO.NamespaceInfo namespaceInfo, MethodInfo extensionMethod)
         {
-            foreach(var dataType in namespaceInfo.DataTypes)
+            string parameterTypeName = extensionMethod.GetParameters()[0].ParameterType.Name;
+            foreach (var dataType in namespaceInfo.DataTypes)
             {
-                if(dataType.Name == extensionMethod.GetParameters()[0].ParameterType.Name)
+                if (dataType.Name == parameterTypeName)
                 {
-                    dataType.Methods.Add(new DTO.MethodInfo() { Name = extensionMethod.Name, IsExtension = true});
+                    dataType.Methods.Add(new DTO.MethodInfo() { Name = extensionMethod.Name, IsExtension = true });
                 }
             }
         }

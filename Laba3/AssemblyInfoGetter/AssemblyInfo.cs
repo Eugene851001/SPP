@@ -8,7 +8,7 @@ namespace DTO
 {
     public class AssemblyInfo
     {
-        public string Name;
+        public string Name { get; set; }
         public List<NamespaceInfo> Namespaces { get; set; } = new List<NamespaceInfo>();
     }
 }

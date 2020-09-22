@@ -22,23 +22,28 @@
                 <MenuItem Header="Open" Command="{Binding OpenCommand}"></MenuItem>
             </MenuItem>
         </Menu>
-        <TreeView Grid.Row="1" x:Name="assemblyTree" ItemsSource="{Binding Namespaces}">
+        <TreeView Grid.Row="1" x:Name="assemblyTree" ItemsSource="{Binding AssembliesInfo}">
             <TreeView.ItemTemplate>
-                <HierarchicalDataTemplate ItemsSource="{Binding DataTypes}">
+                <HierarchicalDataTemplate ItemsSource="{Binding Namespaces}">
                     <TextBlock Text="{Binding Name}"/>
                     <HierarchicalDataTemplate.ItemTemplate>
-                        <HierarchicalDataTemplate ItemsSource="{Binding MembersInfo}">
-                            <TextBlock>
-                                <TextBlock.Text>
-                                    <MultiBinding Converter="{StaticResource MembersConverter}">
-                                        <Binding Path="Name"/>
-                                        <Binding Path="Type"/>
-                                        <Binding Path="ReturnType"/>
-                                        <Binding Path="Parameters"/>
-                                        <Binding Path="IsExtension"/>
-                                    </MultiBinding>
-                                </TextBlock.Text>
-                            </TextBlock>
+                        <HierarchicalDataTemplate ItemsSource="{Binding DataTypes}">
+                            <TextBlock Text="{Binding Name}"/>
+                            <HierarchicalDataTemplate.ItemTemplate>
+                                <HierarchicalDataTemplate ItemsSource="{Binding MembersInfo}">
+                                    <TextBlock>
+                                        <TextBlock.Text>
+                                            <MultiBinding Converter="{StaticResource MembersConverter}">
+                                                <Binding Path="Name"/>
+                                                <Binding Path="Type"/>
+                                                <Binding Path="ReturnType"/>
+                                                <Binding Path="Parameters"/>
+                                                <Binding Path="IsExtension"/>
+                                            </MultiBinding>
+                                        </TextBlock.Text>
+                                    </TextBlock>
+                                </HierarchicalDataTemplate>
+                            </HierarchicalDataTemplate.ItemTemplate>
                         </HierarchicalDataTemplate>
                     </HierarchicalDataTemplate.ItemTemplate>
                 </HierarchicalDataTemplate>
