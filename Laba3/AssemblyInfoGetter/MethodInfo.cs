@@ -11,5 +11,6 @@ namespace DTO
         public string Name { get; set; }
         public Type ReturnType { get; set; }
         public List<ParameterInfo> Parameters { get; set; } = new List<ParameterInfo>();
+        public bool IsExtension { get; set; } = false;
     }
 }

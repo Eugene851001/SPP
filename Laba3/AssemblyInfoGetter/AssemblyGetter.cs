@@ -17,9 +17,22 @@ namespace AssemblyInfoGetter
             assembly = Assembly.LoadFrom(fileName);
         }
 
+        bool IsExistsNamespace(DTO.AssemblyInfo assemblyInfo, string namespaceName)
+        {
+            foreach(var namespaceInfo in assemblyInfo.Namespaces)
+            {
+                if(namespaceInfo.Name == namespaceName)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         public DTO.NamespaceInfo GetAssemblyInfo()
         {
             DTO.NamespaceInfo namespaceInfo = new DTO.NamespaceInfo();
+
             namespaceInfo.Name = assembly.FullName;
             foreach(Type type in assembly.GetTypes())
             {
@@ -54,11 +67,6 @@ namespace AssemblyInfoGetter
                         methodInfo.Parameters.Add(parameterInfo);
                     }
                     dataTypeInfo.Methods.Add(methodInfo);
-                    if (method.IsDefined(typeof(ExtensionAttribute), false))
-                    {
-                        methodInfo.Name += " Extends ";
-                        methodInfo.Name += method.GetParameters()[0].ParameterType.Name;
-                    }
                 }
                 namespaceInfo.DataTypes.Add(dataTypeInfo);
             }
@@ -88,7 +96,7 @@ namespace AssemblyInfoGetter
             {
                 if(dataType.Name == extensionMethod.GetParameters()[0].ParameterType.Name)
                 {
-                    dataType.Methods.Add(new DTO.MethodInfo() { Name = extensionMethod.Name + "- Extesnion" });
+                    dataType.Methods.Add(new DTO.MethodInfo() { Name = extensionMethod.Name, IsExtension = true});
                 }
             }
         }

@@ -7,12 +7,15 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="TreeViewPage">
+    <Page.Resources>
+        <local:MembersConverter x:Key="MembersConverter"/>
+    </Page.Resources>
      
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
             <RowDefinition />
-            <RowDefinition />
+
         </Grid.RowDefinitions>
         <Menu VerticalAlignment="Top" Height="20">
             <MenuItem Header="File">
@@ -24,24 +27,22 @@
                 <HierarchicalDataTemplate ItemsSource="{Binding DataTypes}">
                     <TextBlock Text="{Binding Name}"/>
                     <HierarchicalDataTemplate.ItemTemplate>
-                        <HierarchicalDataTemplate ItemsSource="{Binding Methods}">
-                            <TextBlock Text="{Binding Name}"/>
-                            <HierarchicalDataTemplate.ItemTemplate>
-                                <HierarchicalDataTemplate ItemsSource="{Binding Parameters}">
-                                    <TextBlock Text="{Binding Name}"/>
-                                </HierarchicalDataTemplate>
-                            </HierarchicalDataTemplate.ItemTemplate>
+                        <HierarchicalDataTemplate ItemsSource="{Binding MembersInfo}">
+                            <TextBlock>
+                                <TextBlock.Text>
+                                    <MultiBinding Converter="{StaticResource MembersConverter}">
+                                        <Binding Path="Name"/>
+                                        <Binding Path="Type"/>
+                                        <Binding Path="ReturnType"/>
+                                        <Binding Path="Parameters"/>
+                                        <Binding Path="IsExtension"/>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
                         </HierarchicalDataTemplate>
                     </HierarchicalDataTemplate.ItemTemplate>
                 </HierarchicalDataTemplate>
             </TreeView.ItemTemplate>
         </TreeView>
-        <ListBox Grid.Row="2" ItemsSource="{Binding Phones}">
-            <ListBox.ItemTemplate>
-                <DataTemplate>
-                    <TextBlock Text="{Binding Path=Name}"/>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
     </Grid>
 </Page>
