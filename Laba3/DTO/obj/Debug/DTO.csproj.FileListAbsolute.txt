@@ -1,0 +1,5 @@
+E:\5 сем\СПП\лаба 3\DTO\bin\Debug\DTO.dll
+E:\5 сем\СПП\лаба 3\DTO\bin\Debug\DTO.pdb
+E:\5 сем\СПП\лаба 3\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+E:\5 сем\СПП\лаба 3\DTO\obj\Debug\DTO.dll
+E:\5 сем\СПП\лаба 3\DTO\obj\Debug\DTO.pdb

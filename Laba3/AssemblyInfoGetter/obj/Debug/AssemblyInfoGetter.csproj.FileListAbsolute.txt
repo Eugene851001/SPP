@@ -1,0 +1,5 @@
+E:\5 сем\СПП\лаба 3\AssemblyInfoGetter\bin\Debug\AssemblyInfoGetter.dll
+E:\5 сем\СПП\лаба 3\AssemblyInfoGetter\bin\Debug\AssemblyInfoGetter.pdb
+E:\5 сем\СПП\лаба 3\AssemblyInfoGetter\obj\Debug\AssemblyInfoGetter.csprojAssemblyReference.cache
+E:\5 сем\СПП\лаба 3\AssemblyInfoGetter\obj\Debug\AssemblyInfoGetter.dll
+E:\5 сем\СПП\лаба 3\AssemblyInfoGetter\obj\Debug\AssemblyInfoGetter.pdb

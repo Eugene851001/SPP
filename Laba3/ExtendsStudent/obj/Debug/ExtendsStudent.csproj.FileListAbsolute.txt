@@ -1,0 +1,8 @@
+E:\5 сем\СПП\лаба 3\ExtendsStudent\bin\Debug\ExtendsStudent.dll
+E:\5 сем\СПП\лаба 3\ExtendsStudent\bin\Debug\ExtendsStudent.pdb
+E:\5 сем\СПП\лаба 3\ExtendsStudent\bin\Debug\DTO.dll
+E:\5 сем\СПП\лаба 3\ExtendsStudent\bin\Debug\DTO.pdb
+E:\5 сем\СПП\лаба 3\ExtendsStudent\obj\Debug\ExtendsStudent.csprojAssemblyReference.cache
+E:\5 сем\СПП\лаба 3\ExtendsStudent\obj\Debug\ExtendsStudent.csproj.CopyComplete
+E:\5 сем\СПП\лаба 3\ExtendsStudent\obj\Debug\ExtendsStudent.dll
+E:\5 сем\СПП\лаба 3\ExtendsStudent\obj\Debug\ExtendsStudent.pdb
