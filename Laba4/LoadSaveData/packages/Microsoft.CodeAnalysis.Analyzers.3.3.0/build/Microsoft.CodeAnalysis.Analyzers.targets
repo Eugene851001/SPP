@@ -1,0 +1,52 @@
+<Project>
+  <Target Name="AddGlobalAnalyzerConfigForPackage_MicrosoftCodeAnalysisAnalyzers" BeforeTargets="CoreCompile" Condition="'$(SkipGlobalAnalyzerConfigForPackage)' != 'true'">
+    <!-- PropertyGroup to compute global analyzer config file to be used -->
+    <PropertyGroup>
+      <!-- GlobalAnalyzerConfig folder name based on user specified package version 'MicrosoftCodeAnalysisAnalyzersRulesVersion', if any. We replace '.' with '_' to map the version string to file name suffix. -->
+      <_GlobalAnalyzerConfigFolderName Condition="'$(MicrosoftCodeAnalysisAnalyzersRulesVersion)' != ''">RulesVersion$(MicrosoftCodeAnalysisAnalyzersRulesVersion.Replace(".","_"))</_GlobalAnalyzerConfigFolderName>
+      
+      <_GlobalAnalyzerConfigDir Condition="'$(_GlobalAnalyzerConfigDir)' == ''">$(MSBuildThisFileDirectory)config\$(_GlobalAnalyzerConfigFolderName)</_GlobalAnalyzerConfigDir>
+      <_GlobalAnalyzerConfigFile>$(_GlobalAnalyzerConfigDir)\.editorconfig</_GlobalAnalyzerConfigFile>
+    </PropertyGroup>
+
+    <ItemGroup Condition="Exists('$(_GlobalAnalyzerConfigFile)')">
+      <EditorConfigFiles Include="$(_GlobalAnalyzerConfigFile)" />
+    </ItemGroup>
+  </Target>
+
+  <!-- MSBuild properties to thread to the analyzers as options --> 
+  <ItemGroup>
+    <CompilerVisibleProperty Include="TargetFramework" />
+    <CompilerVisibleProperty Include="TargetPlatformMinVersion" />
+    <CompilerVisibleProperty Include="UsingMicrosoftNETSdkWeb" />
+    <CompilerVisibleProperty Include="ProjectTypeGuids" />
+    <CompilerVisibleProperty Include="PublishSingleFile" />
+    <CompilerVisibleProperty Include="IncludeAllContentForSelfExtract" />
+  </ItemGroup>
+
+  <!-- MSBuild item metadata to thread to the analyzers as options -->
+  <PropertyGroup>
+    <_SupportedPlatformList>@(SupportedPlatform, ',')</_SupportedPlatformList>
+  </PropertyGroup>
+
+  <!-- MSBuild properties to thread to the analyzers as options --> 
+  <ItemGroup>
+    <CompilerVisibleProperty Include="_SupportedPlatformList" />
+  </ItemGroup>
+
+  <!-- Target to add all 'EmbeddedResource' files with '.resx' extension as analyzer additional files -->
+  <Target Name="AddAllResxFilesAsAdditionalFiles" BeforeTargets="CoreCompile" Condition="'@(EmbeddedResource)' != '' AND '$(SkipAddAllResxFilesAsAdditionalFiles)' != 'true'">
+    <ItemGroup>
+      <EmbeddedResourceWithResxExtension Include="@(EmbeddedResource)" Condition="'%(Extension)' == '.resx'" />
+      <AdditionalFiles Include="%(EmbeddedResourceWithResxExtension.Identity)" />
+    </ItemGroup>
+  </Target>
+
+  <!-- Workaround for https://github.com/dotnet/roslyn/issues/4655 -->
+  <ItemGroup Condition="Exists('$(MSBuildProjectDirectory)\AnalyzerReleases.Shipped.md')" >
+	<AdditionalFiles Include="AnalyzerReleases.Shipped.md" />
+  </ItemGroup>
+  <ItemGroup Condition="Exists('$(MSBuildProjectDirectory)\AnalyzerReleases.Unshipped.md')" >
+	<AdditionalFiles Include="AnalyzerReleases.Unshipped.md" />
+  </ItemGroup>
+</Project>

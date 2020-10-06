@@ -1,0 +1,16 @@
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\bin\Debug\TestTestsGenerator.dll
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\bin\Debug\TestTestsGenerator.pdb
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\obj\Debug\TestTestsGenerator.csprojAssemblyReference.cache
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\obj\Debug\TestTestsGenerator.csproj.CopyComplete
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\obj\Debug\TestTestsGenerator.dll
+E:\5 сем\СПП\лаба 4\TestTestsGenerator\obj\Debug\TestTestsGenerator.pdb
