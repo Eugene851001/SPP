@@ -1,0 +1,5 @@
+E:\5 сем\СПП\лаба 5\DependencyInjectionContainer\bin\Debug\DependencyInjectionContainer.dll
+E:\5 сем\СПП\лаба 5\DependencyInjectionContainer\bin\Debug\DependencyInjectionContainer.pdb
+E:\5 сем\СПП\лаба 5\DependencyInjectionContainer\obj\Debug\DependencyInjectionContainer.csprojAssemblyReference.cache
+E:\5 сем\СПП\лаба 5\DependencyInjectionContainer\obj\Debug\DependencyInjectionContainer.dll
+E:\5 сем\СПП\лаба 5\DependencyInjectionContainer\obj\Debug\DependencyInjectionContainer.pdb
