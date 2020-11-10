@@ -61,7 +61,7 @@ namespace TestDependecyInjection
 
             var provider = new DependencyProvider(configurations);
 
-            var message = provider.Resolver<IMessage>();
+            var message = provider.Resolver<IPhone>();
             Assert.AreEqual("Samsung Galaxy A40", ((SmsMessage)message).Phone.Name);
         }
 
