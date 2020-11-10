@@ -29,18 +29,20 @@ namespace DependencyInjectionContainer
                 dependencies.Add(typeof(TDependency), implementationInfo);
         }
 
-        public void RegisterSingleton<TDependency, TImplementation>() where TImplementation: TDependency
+        public void RegisterSingleton<TDependency, TImplementation>(
+            ImplementationName implementationName = ImplementationName.None) where TImplementation: TDependency
         {
             var implementationInfo = new ImplementationInfo()
-            { Lifetime = Lifetime.Singleton, TImplementation = typeof(TImplementation) };
+                { Lifetime = Lifetime.Singleton, TImplementation = typeof(TImplementation), ImplementationName = implementationName};
             Register<TDependency>(implementationInfo);
 
         }
 
-        public void RegisterTransient<TDependency, TImplementation>() where TImplementation: TDependency
+        public void RegisterTransient<TDependency, TImplementation>(
+            ImplementationName implementationName = ImplementationName.None) where TImplementation: TDependency
         {
             var implementationInfo = new ImplementationInfo()
-                { Lifetime = Lifetime.Transient, TImplementation = typeof(TImplementation) };
+                { Lifetime = Lifetime.Transient, TImplementation = typeof(TImplementation), ImplementationName = implementationName };
             Register<TDependency>(implementationInfo);
 
         }
@@ -54,13 +56,6 @@ namespace DependencyInjectionContainer
             else
                 openGenericDependencies.Add(typeDependency, implemetationInfo);
 
-        }
-
-        public void RegisterTransient<TDependecny, TImplementation>(ImplementationName implementationName)
-        {
-            var implementationInfo = new ImplementationInfo()
-            { Lifetime = Lifetime.Transient, TImplementation = typeof(TImplementation), ImplementationName = implementationName};
-            Register<TDependecny>(implementationInfo);
         }
 
     }

@@ -11,7 +11,7 @@ namespace TestDependecyInjection
         string name;
         public string Name { get { return name; } }
 
-        public Samsung()
+        public Samsung(IRepository repository)
         {
             name = "Samsung Galaxy A40";
         }

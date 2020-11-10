@@ -21,13 +21,27 @@ namespace DependencyInjectionContainer
             openGenericDependecies = configuration.openGenericDependencies;
         }
 
-        object Resolve(Type serviceType)
+        ImplementationInfo getImplemetationInfo(Type serviceType, ImplementationName implementationName)
+        {
+            var implementationInfo = dependencies[serviceType];
+            foreach (ImplementationInfo implementation in dependencies[serviceType].ImplementationList())
+            {
+                if (implementation.ImplementationName == implementationName)
+                {
+                    implementationInfo = implementation;
+                }
+            }
+            return implementationInfo;
+        }
+
+        object ResolveCommon(Type serviceType, ImplementationName implementationName)
         {
             if(serviceType.IsGenericType &&
                 ( serviceType.GetGenericTypeDefinition() == typeof(IEnumerable<>)))
             {
                 return GetEnumerable(serviceType.GetGenericArguments()[0]);
             }
+
             if(serviceType.IsGenericType && 
                 openGenericDependecies.ContainsKey(serviceType.GetGenericTypeDefinition()))
             {
@@ -37,15 +51,21 @@ namespace DependencyInjectionContainer
                     { Lifetime = Lifetime.Transient, TImplementation = implemetationType };
                 dependencies.Add(serviceType, implemetation);
             }
+
             if (!dependencies.ContainsKey(serviceType))
                 return null;
-            var implemtationInfo = dependencies[serviceType];
-            if (!serviceType.IsAssignableFrom(implemtationInfo.TImplementation))
+
+            var implementationInfo = getImplemetationInfo(serviceType, implementationName);
+
+            if (!serviceType.IsAssignableFrom(implementationInfo.TImplementation))
                 return null;
-            if (implemtationInfo.Lifetime == Lifetime.Singleton)
-                return Singleton.GetInstance(implemtationInfo.TImplementation, CreateImplemetationInstance);
-            if (implemtationInfo.Lifetime == Lifetime.Transient)
-                return CreateImplemetationInstance(implemtationInfo.TImplementation);
+
+            if (implementationInfo.Lifetime == Lifetime.Singleton)
+                return Singleton.GetInstance(implementationInfo.TImplementation, CreateImplemetationInstance);
+
+            if (implementationInfo.Lifetime == Lifetime.Transient)
+                return CreateImplemetationInstance(implementationInfo.TImplementation);
+
             return null;
         }
 
@@ -62,20 +82,15 @@ namespace DependencyInjectionContainer
             return list;
         }
 
-        public T Resolver<T>()
+        public T Resolver<T>(ImplementationName implementationName = ImplementationName.None)
         {
-            /*     if(typeof(T) is IEnumerable)
-                 {
-
-                     return GetEnumerable<>();
-                 }*/ 
             Type serviceType = typeof(T);
-            return (T)Resolve(serviceType);
+            return (T)ResolveCommon(serviceType, implementationName);
         }
 
-        object Resolver(Type serviceType)
+        object Resolver(Type serviceType, ImplementationName implementationName = ImplementationName.None)
         {
-            return Resolve(serviceType);
+            return ResolveCommon(serviceType, implementationName);
         }
 
 
@@ -98,13 +113,19 @@ namespace DependencyInjectionContainer
             {
                 if(dependencies.ContainsKey(parameter.ParameterType))
                 {
-                    parameters.Add(Resolver(parameter.ParameterType));
+                    DependencyKeyAttribute dependencyAttribute = 
+                        (DependencyKeyAttribute)parameter.GetCustomAttribute(typeof(DependencyKeyAttribute));
+                    if (dependencyAttribute != null)
+                        parameters.Add(Resolver(parameter.ParameterType, dependencyAttribute.ImplementationName));
+                    else
+                        parameters.Add(Resolver(parameter.ParameterType));
                 }
                 else
                 {
                     parameters.Add(null);
                 }
             }
+
             return Activator.CreateInstance(type, parameters.ToArray());
         }
 

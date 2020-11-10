@@ -49,6 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GenericPhone.cs" />
     <Compile Include="Google.cs" />
     <Compile Include="IMessage.cs" />
     <Compile Include="IMongoDB.cs" />

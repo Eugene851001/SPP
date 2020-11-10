@@ -42,10 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DependenciesConfiguration.cs" />
+    <Compile Include="DependencyKeyAttribute.cs" />
     <Compile Include="DependencyProvider.cs" />
     <Compile Include="ImplementationInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="GenericSingleton.cs" />
     <Compile Include="Singleton.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

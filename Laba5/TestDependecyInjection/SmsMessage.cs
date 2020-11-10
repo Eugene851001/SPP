@@ -8,8 +8,6 @@ namespace TestDependecyInjection
 {
     class SmsMessage: IMessage
     {
-        public IPhone Phone;
-
         int counter = 0;
         public int Counter { get { return counter; } }
 
@@ -17,11 +15,6 @@ namespace TestDependecyInjection
         {
             counter++;
             return "Message from sms";
-        }
-
-        public SmsMessage(IPhone phone)
-        {
-            Phone = phone;
         }
 
     }

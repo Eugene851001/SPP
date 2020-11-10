@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DependencyInjectionContainer
 {
-    class DependencyKeyAttribute: Attribute
+    [AttributeUsage(AttributeTargets.Parameter)]
+    public class DependencyKeyAttribute: Attribute
     {
         public ImplementationName ImplementationName { get; }
 

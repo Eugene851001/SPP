@@ -56,13 +56,13 @@ namespace TestDependecyInjection
         public void TestRecursiveCreation()
         {
             var configurations = new DependenciesConfiguration();
-            configurations.RegisterSingleton<IMessage, SmsMessage>();
-            configurations.RegisterSingleton<IPhone, Samsung>();
+            configurations.RegisterTransient<IRepository, MySQLRepository>();
+            configurations.RegisterTransient<IPhone, Samsung>();
 
             var provider = new DependencyProvider(configurations);
 
-            var message = provider.Resolver<IPhone>();
-            Assert.AreEqual("Samsung Galaxy A40", ((SmsMessage)message).Phone.Name);
+            var phone = provider.Resolver<IPhone>();
+            Assert.AreEqual("Samsung Galaxy A40", phone.Name);
         }
 
         [TestMethod]
@@ -89,7 +89,7 @@ namespace TestDependecyInjection
         }
 
         [TestMethod]
-        public void TestConstructor()
+        public void TestConstructorWithUsualParameter()
         {
             var configurations = new DependenciesConfiguration();
             configurations.RegisterTransient<Person, Person>();
@@ -104,13 +104,12 @@ namespace TestDependecyInjection
         public void TestGenericImplemetation()
         {
             var configurations = new DependenciesConfiguration();
-            configurations.RegisterTransient<IList, List<int>>();
+            configurations.RegisterTransient<IPhone, GenericPhone<int>>();
 
             var provider = new DependencyProvider(configurations);
-            IList list = provider.Resolver<IList>();
+            var phone = provider.Resolver<IPhone>();
 
-            list.Add(10);
-            Assert.AreEqual(10, list[0]);
+            Assert.AreEqual("Generic Phone", phone.Name);
         }
 
         [TestMethod]
@@ -142,6 +141,54 @@ namespace TestDependecyInjection
             var google = provider.Resolver<IService<IMongoDB>>();
             Assert.AreEqual("Google: MongoDB request", google.UseRepository(provider.Resolver<IMongoDB>()));
             Assert.AreEqual("Google: MongoDB request", google.UseLocalRepository());
+        }
+
+        [TestMethod]
+        public void TestAnotherOpenGeneric()
+        {
+            var configurations = new DependenciesConfiguration();
+            configurations.Register(typeof(GenericPhone<>), typeof(GenericPhone<>));
+
+            var provider = new DependencyProvider(configurations);
+
+            var phone = provider.Resolver<GenericPhone<string>>();
+            phone.Users.Add("Eugene");
+
+            Assert.AreEqual("Eugene", phone.Users[0]);
+        }
+
+
+        [TestMethod]
+        public void TestDependencyNaming()
+        {
+            var configurations = new DependenciesConfiguration();
+            configurations.RegisterTransient<IRepository, MySQLRepository>(ImplementationName.First);
+            configurations.RegisterTransient<IRepository, MongoDB>(ImplementationName.Second);
+
+            var provider = new DependencyProvider(configurations);
+
+            var mySQL = provider.Resolver<IRepository>(ImplementationName.First);
+            var mongoDB = provider.Resolver<IRepository>(ImplementationName.Second);
+
+            Assert.AreEqual("MySQL request", mySQL.SendRequest(""));
+            Assert.AreEqual("MongoDB request", mongoDB.SendRequest(""));
+
+        }
+
+        [TestMethod]
+        public void TestDependecnyNamingAttribute()
+        {
+            var configurations = new DependenciesConfiguration();
+            configurations.RegisterTransient<IRepository, MySQLRepository>(ImplementationName.Second);
+            configurations.RegisterTransient<IRepository, MongoDB>(ImplementationName.First);
+            configurations.RegisterTransient<IService<IRepository>, Yandex<IRepository>>();
+
+            var provider = new DependencyProvider(configurations);
+
+            var yandex = provider.Resolver<IService<IRepository>>();
+
+            Assert.AreEqual("Yandex: MongoDB request", yandex.UseLocalRepository());
+            
         }
     }
 }
